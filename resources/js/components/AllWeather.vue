@@ -3,7 +3,7 @@
     <vue-weather
         v-if="!this.gettingLocation"
         api-key="29a8e20ba2d67c56116e6dc90173f72d"
-        units="auto"
+        units="uk"
         :latitude="location.latitude"
         :longitude="location.longitude"
     />
