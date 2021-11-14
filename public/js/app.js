@@ -2140,6 +2140,7 @@ __webpack_require__.r(__webpack_exports__);
 
     navigator.geolocation.getCurrentPosition(function (pos) {
       _this.gettingLocation = false;
+      console.log("POS = ", pos);
       _this.location = pos === null || pos === void 0 ? void 0 : pos.coords;
     }, function (err) {
       _this.gettingLocation = false;
